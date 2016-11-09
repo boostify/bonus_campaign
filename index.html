@@ -6,10 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Seiten Titel -->
-  <title>Bonus</title>
+  <title>Bonus-Spende</title>
 
   <link rel="stylesheet" media="screen" href="https://www.bonusspende.de/assets/application_dra.css">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bonus_campaign.css" rel="stylesheet">
+
+  <link href="assets/images/apple-icon.png" rel="apple-touch-icon">
+  <link href="assets/images/apple-icon-76.png" rel="apple-touch-icon" size="76x76">
+  <link href="assets/images/apple-icon-120.png" rel="apple-touch-icon" size="120x120">
+  <link href="assets/images/apple-icon-152.png" rel="apple-touch-icon" size="152x152">
+  <link href="assets/images/apple-icon-167.png" rel="apple-touch-icon" size="167x167">
+  <link href="assets/images/apple-icon-180.png" rel="apple-touch-icon" size="180x180">
+
+  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon">
+  <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,389 +29,603 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
     </head>
-    <body>
-      <!-- All Changes      -->
-      <!-- are made in this -->
-      <!-- area             -->
+    <body class="landingpages new">
 
-      <body class="landingpages new">
-
-        <!-- Main Page Content -->
-        <div>
-          <div class="notifications">
+      <nav class="navbar navbar-default" id="header" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+              <span class="sr-only">
+                Toggle navigation
+              </span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img alt="BONUS-Spende" src="https://www.bonusspende.de/assets/dra/bonus_logo-c8132737ba8fc1ec226ad4b919970053.png">
+            </a><div class="visible-xs">
+            <div class="log_status">
+              <p class="text-muted">
+                <i class="fa fa-circle loggedout"></i>
+                <a href="https://www.bonusspende.de/users/sign_in">Login</a>
+              </p>
+            </div>
           </div>
-          <!-- flash-message: "about boost" -->
-          <div>
-            <div class="notifications">
-              <div class="alert alert-info hidden" id="about_msg">
-                <button aria-hidden="true" class="close" data-dismiss="alert" href="#" title="Schließen" type="button">
-                  ×
-                </button>
-                <div class="container">
-                  <p>
-                    BONUS: Kostenlose Spenden durch Online-Einkäufe...
-                    <a href="/howto">Erfahre mehr</a>
-                  </p>
-                </div>
-              </div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a class="" href="https://www.bonusspende.de/shops">Shops</a>
+            </li>
+            <li>
+              <a class="" href="https://www.bonusspende.de/bonus-melder">BONUS-Melder</a>
+            </li>
+            <li>
+              <a class="" href="https://www.bonusspende.de/weitersagen">Weitersagen
+              </a></li>
+              <li>
+                <a class="" href="https://www.bonusspende.de/faq">FAQ</a>
+              </li>
+            </ul>
+            <div class="navbar-text navbar-right">
+              <a id="main_login" href="https://www.bonusspende.de/users/sign_in">Login</a>
+              |
+              <a href="https://www.bonusspende.de/users/sign_up">Registrieren</a>
             </div>
 
           </div>
         </div>
+      </nav>
 
-        <nav class="navbar navbar-default" id="header" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                <span class="sr-only">
-                  Toggle navigation
-                </span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/"><img alt="BONUS-Spende" src="https://www.bonusspende.de/assets/dra/bonus_logo-c8132737ba8fc1ec226ad4b919970053.png">
-              </a><div class="visible-xs">
-              <div class="log_status">
-                <p class="text-muted">
-                  <i class="fa fa-circle loggedout"></i>
-                  <a href="https://www.bonusspende.de/users/sign_in">Login</a>
-                </p>
+      <article>
+        <div id="homepage">
+
+          <!--                -->
+          <!-- SLIDER SECTION -->
+          <!--                -->
+          <div class="dra keyvisual full-screen" id="homepage">
+            <div class="background-img">
+              <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="item">
+                    <div class="slide-img">
+
+                      <!--  Slider Images  -->
+                      <!-- 1st Slide Image -->
+                      <img class="img-responsive" src="assets/images/keyvisual/slide01.jpg" alt="Slide01">
+                    </div>
+                  </div>
+                  <div class="item active">
+                    <div class="slide-img">
+
+                      <!-- 2nd Slide Image -->
+                      <img class="img-responsive" src="assets/images/keyvisual/slide02.jpg" alt="Slide02">
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="slide-img">
+
+                      <!-- 3rd Slide Image -->
+                      <img class="img-responsive" src="assets/images/keyvisual/slide03.jpg" alt="Slide03">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tagline_container">
+              <div class="tagline">
+                <div class="container">
+                  <h1>
+                    <span>
+                      <!-- Slider Claim 1st Line -->
+                      Mit dem Weihnachts-Einkauf
+                    </span>
+
+                    <br>
+
+                    <span>
+                      <!-- Slider Claim: 2nd Line -->
+                      Kindern Hoffnung schenken.
+                    </span>
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li>
-                <a class="" href="https://www.bonusspende.de/shops">Shops</a>
-              </li>
-              <li>
-                <a class="" href="https://www.bonusspende.de/bonus-melder">BONUS-Melder</a>
-              </li>
-              <li>
-                <a class="" href="https://www.bonusspende.de/weitersagen">Weitersagen
-                </a></li>
+        </div>
+
+        <!--                -->
+        <!-- PRESSE SECTION -->
+        <!--                -->
+        <section class="teaser">
+          <div class="container items_teaser" id="teaser_shops">
+            <div class="shops_wrapper row">
+              <div class="col-sm-2 col-xs-6 shop_item_wrapper">
+                <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=28"><div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-2 col-xs-6 shop_item_wrapper">
+              <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=75">
+                <div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-2 col-xs-6 shop_item_wrapper">
+              <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=13">
+                <div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-2 col-xs-6 shop_item_wrapper">
+              <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=52">
+                <div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2 col-xs-6 shop_item_wrapper">
+              <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=611">
+                <div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2 col-xs-6 last shop_item_wrapper">
+              <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=592">
+                <div class="logo-thumbnail">
+                  <div class="logo">
+                    <!-- Alt Text (Name) and  Image Src (Image url) -->
+                    <img alt="Presse Name 1" src="assets/images/dummi_content/press.jpg" data-pin-nopin="true">
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--                -->
+      <!-- HOW TO SECTION -->
+      <!--                -->
+      <section>
+        <div class="container howtoL" id="howto_steps">
+          <header class="text-center">
+
+            <h2>
+              <!-- How to Title -->
+              So einfach geht's.
+            </h2>
+          </header>
+
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="panel-body">
+                <!-- How to step 1: Image -->
+                <img src="assets/images/howto/step1.png" alt="Step1">
+              </div>
+
+              <div id="extension_install_btn" class="ua_chrome">
+                <a target="_blank" class="btn btn-primary" href="https://chrome.google.com/webstore/detail/jekojmadmgecodgmbhmpeoafmgepjfga">
+                  <!-- How to step 1: Button Text -->
+                  Add-On hinzufügen
+                </a>
+
+                <p>
+                  <img src="https://www.bonusspende.de/assets/icons/check_icon.png" alt="Check icon">
+                  <!-- How to step 1: Description -->
+                  Der BONUS-Melder erinnert dich automatisch vor jedem Einkauf an die BONUS-Spende.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel-body">
+                <!-- How to step 2: Image -->
+                <img src="assets/images/howto/step2.png" alt="Step2">
+              </div>
+
+              <p>
+                <strong>
+                  <!-- How to step 2: Titel -->
+                  BONUS-Spende aktivieren!
+                </strong>
+                <br>
+                <!-- How to step 2: Description -->
+                Der BONUS-Melder erscheint, sobald du die Website eines Partnershops aufrufst.
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel-body">
+                <!-- How to step 3: Image -->
+                <img src="assets/images/howto/step3.png" alt="Step3">
+              </div>
+
+              <p>
+                <strong>
+                  <!-- How to step 3: Titel -->
+                  Weihnachtsgeschenke shoppen...
+                </strong>
+                <!-- How to step 3: Description -->
+                und ohne Mehrkosten eine Spende an die Kinder in Deutschland bewirken entsprechend der drei Schritte bei BONUS-Melder, dritter Schritt mit Bezug Weihnachten
+              </p>
+            </div>
+          </div>
+
+          <div class="panel-body">
+            <!-- Bonus-Melder Example Image -->
+            <img src="assets/images/bonus-melder.jpg" alt="Bonus melder" style="max-width: 100%">
+          </div>
+          <br>
+          <br>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center">
+
+                <!-- Video -->
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/BM0alE1nyGk?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--                         -->
+      <!-- "FÖRDERPROJEKT" SECTION -->
+      <!--                         -->
+      <section>
+        <div class="container">
+          <header class="text-center">
+            <h2>
+              <!-- Förderprojekt Section Title -->
+              So wird Ihre Spende verwendet.
+            </h2>
+          </header>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>
+                <!-- "Förderprojekt" Description -->
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- "Förderprojekt" Image -->
+              <img src="https://www.bonusspende.de/assets/dra/aboutus-a1f237198151a076ea92bb6dce315af0.jpg" alt="Aboutus">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--                  -->
+      <!-- CATEGORY SECTION -->
+      <!--                  -->
+      <section>
+        <div class="container">
+          <header>
+            <h2 class="text-center">
+              <!-- Category Section Titel -->
+              Weihnachtsangebote durchstöbern.
+            </h2>
+          </header>
+
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <!-- Category 1 Link -->
+              <a href="#">
+                <!-- Category 1 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 1 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 2 Link -->
+              <a href="#">
+                <!-- Category 2 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 2 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 3 Link -->
+              <a href="#">
+                <!-- Category 3 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 3 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <!-- Category 4 Link -->
+              <a href="#">
+                <!-- Category 4 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 4 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 5 Link -->
+              <a href="#">
+                <!-- Category 5 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 5 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 6 Link -->
+              <a href="#">
+                <!-- Category 6 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 6 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <!-- Category 7 Link -->
+              <a href="#">
+                <!-- Category 7 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 7 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 8 Link -->
+              <a href="#">
+                <!-- Category 8 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 8 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+
+            <div class="col-sm-4">
+              <!-- Category 9 Link -->
+              <a href="#">
+                <!-- Category 9 Image and AlT-Text (Category Name) -->
+                <img src="assets/images/dummi_content/shop.jpg" alt="Shop Name">
+              </a>
+              <br>
+              <br>
+              <p>
+                <!-- Category 9 Description -->
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!--                     -->
+      <!-- TESTIMONIAL SECTION -->
+      <!--                     -->
+      <section>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-6">
+              <!-- Testimonial 1 Link -->
+              <a href="#">
+                <!-- Testimonial 1 Image and AlT-Text (Testimonial Name) -->
+                <img src="assets/images/testimonials/testimonial1.jpg" alt="Shop Name">
+              </a>
+              <br>
+            </div>
+
+            <div class="col-sm-6">
+              <!-- Testimonial 2 Link -->
+              <a href="#">
+                <!-- Testimonial 2 Image and AlT-Text (Testimonial Name) -->
+                <img src="assets/images/testimonials/testimonial2.jpg" alt="Shop Name">
+              </a>
+              <br>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--                      -->
+      <!-- BONUS-MELDER SECTION -->
+      <!--                      -->
+      <section class="last">
+        <div class="container text-center">
+          <!-- Bonus-Melder Section Title -->
+          <h2>
+            Mit dem BONUS-Melder beim Weihnachts-Einkauf
+            <br>
+            keine Spende mehr vergessen.
+          </h2>
+          <div id="extension_install_btn" class="ua_chrome">
+            <a target="_blank" class="btn btn-primary" href="https://chrome.google.com/webstore/detail/jekojmadmgecodgmbhmpeoafmgepjfga">
+              <!-- Bonus-Melder Button Text -->
+              Add-On hinzufügen
+            </a>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </article>
+
+  <!--                  -->
+  <!-- FOOTER SECTION -->
+  <!--                  -->
+  <div>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="line"></div>
+          <div class="col-sm-4">
+            <h3>
+              INHALT
+            </h3>
+            <nav>
+              <ul class="list-unstyled">
                 <li>
-                  <a class="" href="https://www.bonusspende.de/faq">FAQ</a>
+                  <a href="https://www.bonusspende.de">HOME</a>
+                </li>
+                <li>
+                  <a href="https://www.bonusspende.de/howto">WIE FUNKTIONIERT’S?</a>
+                </li>
+                <li>
+                  <a href="https://www.bonusspende.de/bonus-melder">BONUS-MELDER</a>
+                </li>
+                <li>
+                  <a href="https://www.bonusspende.de/weitersagen">WEITERSAGEN</a>
+                </li>
+                <li>
+                  <a href="/https://www.bonusspende.defaq">FAQ</a>
                 </li>
               </ul>
-              <div class="navbar-text navbar-right">
-                <a id="main_login" href="https://www.bonusspende.de/users/sign_in">Login</a>
-                |
-                <a href="https://www.bonusspende.de/users/sign_up">Registrieren</a>
-              </div>
-
-            </div>
+            </nav>
           </div>
-        </nav>
+          <div class="col-sm-4">
+            <h3>
+              DEUTSCHLAND RUNDET AUF
+            </h3>
+            <nav>
+              <ul class="list-unstyled">
+                <li>
+                  <a target="_blank" href="https://deutschland-rundet-auf.de/ueber-uns/">ÜBER UNS</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.deutschland-rundet-auf.de">FÖRDERPROJEKTE</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://deutschland-rundet-auf.de/kinderarmut/">KINDERARMUT</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://deutschland-rundet-auf.de/category/neuigkeiten/">AKTUELLES</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://deutschland-rundet-auf.de/presse/">PRESSE</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://deutschland-rundet-auf.de/ueber-uns/transparenz/">VERANTWORTUNG</a>
+                </li>
+                <li>
+                  <a href="https://www.bonusspende.de/agb">AGB</a>
+                </li>
+                <li>
+                  <a href="https://www.bonusspende.de/imprint">IMPRESSUM</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-sm-4" id="kontakt">
+            <h3>
+              KONTAKT
+            </h3>
+            <p>
+              DEUTSCHLAND RUNDET AUF Partner GmbH
+            </p>
+            <p>
+              Grimmstr. 12c
+            </p>
+            <p>
+              10967 Berlin
+            </p>
+            <p>
+              E-Mail:
+              <a encode="javascript" href="mailto:bonus@deutschland-rundet-auf.de">bonus@deutschland-rundet-auf.de</a>
+            </p>
+            <p>
+              Telefon: (030) 789 500 39 0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="subsec text-center">
+          <h5>
+            Hosted by
+            <a class="sys11 img-sp" href="https://www.syseleven.de/">Sys11
+            </a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <article>
-          <div id="homepage">
-            <div class="dra keyvisual full-screen" id="homepage">
-              <div class="background-img">
-                <div class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="item">
-                      <div class="slide-img">
-                        <img class="img-responsive" src="https://www.bonusspende.de/assets/dra/keyvisual/slide01-b15d48e09f9a8cd8794a8f14541b03e7.jpg" alt="Slide01">
-                      </div>
-                    </div>
-                    <div class="item active">
-                      <div class="slide-img">
-                        <img class="img-responsive" src="https://www.bonusspende.de/assets/dra/keyvisual/slide02-e2f116ff65a15888b935ad1f9ec1bf44.jpg" alt="Slide02">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="slide-img">
-                        <img class="img-responsive" src="https://www.bonusspende.de/assets/dra/keyvisual/slide03-d60b0e87581af602ec7c689cc3d75a25.jpg" alt="Slide03">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tagline_container">
-                <div class="tagline">
-                  <div class="container">
-                    <h1>
-                      <span>
-                        Wir gemeinsam.
-                      </span>
-                      <br>
-                      <span>
-                        Für die Kinder in Deutschland.
-                      </span>
-                    </h1>
-                    <p class="hidden-xs">
-                      <span>
-                        Durch jede Online-Bestellung bei unseren Partnershops über diese Seite entsteht eine BONUS-Spende für <a href="http://www.deutschland-rundet-auf.de/">DEUTSCHLAND RUNDET AUF</a>, die Dich keinen Cent kostet. Mach auch Du mit!
-                      </span>
-                    </p>
-                  </div>
-                  <div class="container">
-                    <a class="btn btn-primary cta" href="https://www.bonusspende.de/users/sign_up">Mitmachen
-                    </a></div>
-                  </div>
-                </div>
-                <div class="info text-center">
-                  <p>
-                    <a class="smooth_scroll" href="#howto_steps">Mehr erfahren</a>
-                  </p><div class="triangle-down">
-                  ˅
-                </div>
-                <p></p>
-              </div>
-            </div>
-
-            <section class="teaser">
-              <div class="container items_teaser" id="teaser_shops">
-                <div class="shops_wrapper row">
-                  <div class="col-sm-2 col-xs-6 shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=28"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="OTTO" src="https://boostproduction.s3.amazonaws.com/shops/corporate_logos/28/thumb/OTTO_Logo_500x500.jpg?1430387048">
-                      </div>
-                    </div>
-                  </a></div>
-                  <div class="col-sm-2 col-xs-6 shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=75"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="Zooplus" src="https://boostproduction.s3.amazonaws.com/shops/corporate_logos/75/thumb/Zooplus.gif?1474375810">
-                      </div>
-                    </div>
-                  </a></div>
-                  <div class="col-sm-2 col-xs-6 shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=13"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="DaWanda" src="https://boostproduction.s3.amazonaws.com/corporate_logos/13/thumb/fashion.gif?1331301666">
-                      </div>
-                    </div>
-                  </a></div>
-                  <div class="col-sm-2 col-xs-6 shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=52"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="Lieferando" src="https://boostproduction.s3.amazonaws.com/shops/corporate_logos/52/thumb/200x70.jpg?1429785630">
-                      </div>
-                    </div>
-                  </a></div>
-                  <div class="col-sm-2 col-xs-6 shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=611"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="Deutsche Bahn" src="https://boostproduction.s3.amazonaws.com/corporate_logos/629/thumb/Zug_fahren.jpg?1376068334">
-                      </div>
-                    </div>
-                  </a></div>
-                  <div class="col-sm-2 col-xs-6 last shop_item_wrapper">
-                    <a class="shop_item" href="/referals/new?referal%5Bshop_id%5D=592"><div class="logo-thumbnail">
-                      <div class="logo">
-                        <img alt="Expedia" src="https://boostproduction.s3.amazonaws.com/corporate_logos/610/thumb/g%C3%BCnstig_reisen.gif?1374763404">
-                      </div>
-                    </div>
-                  </a></div>
-                </div>
-                <p class="more">
-                  <a href="/shops">Mehr Shops</a>
-                </p>
-              </div>
-
-            </section>
-            <section>
-              <div class="container howtoL" id="howto_steps">
-                <header class="text-center">
-                  <h2>
-                    Wie funktioniert’s?
-                  </h2>
-                  <div class="row text-center">
-                    <div class="col-sm-4">
-                      <div class="panel-body">
-                        <img src="https://www.bonusspende.de/assets/dra/howto/step1-17814abcb4076383dcf7bacb88fe8b59.png" alt="Step1">
-                      </div>
-                      <h3>
-                        Über BONUS einkaufen
-                      </h3>
-                      <p>
-                        Geh über BONUS zu einem von 500+ Partnershops und kaufe ganz normal ein.
-                      </p>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="panel-body">
-                        <img src="https://www.bonusspende.de/assets/dra/howto/step2-9636accc254d198002ea09c3b094dc53.png" alt="Step2">
-                      </div>
-                      <h3>
-                        Ein paar Tage später...
-                      </h3>
-                      <p>
-                        bekommst du auch schon eine Gutschrift auf deinem BONUS-Konto.
-                      </p>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="panel-body">
-                        <img src="https://www.bonusspende.de/assets/dra/howto/step3-24fdaf6d34de23b66b2b91c4f723de0f.png" alt="Step3">
-                      </div>
-                      <h3>
-                        Deine BONUS-Spende
-                      </h3>
-                      <p>
-                        Die auf deinem Konto verzeichneten Gutschriften gehen, auf deinen Wunsch hin, zu 100% an die Förderprojekte von DEUTSCHLAND RUNDET AUF.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="panel-body text-center">
-                    <a class="btn btn-primary" href="https://www.bonusspende.de/users/sign_up">Mitmachen</a>
-                  </div>
-
-                </header>
-              </div>
-            </section>
-            <section>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-6 col-sm-offset-3">
-                    <header class="text-center">
-                      <h2>
-                        Ganz einfach Spenden sammeln?  <br> BONUS-Melder
-                      </h2>
-                      <p>
-                        Unser BONUS-Melder erinnert dich ganz automatisch an die Möglichkeit der BONUS-Spende. Der BONUS-Melder erscheint, sobald du die Website eines Partnershops aufrufst.<br><br>Du kannst die Browser-Erweiterung hier ganz einfach herunterladen. Probier es aus!
-                      </p>
-                    </header>
-                  </div>
-                </div>
-                <div class="img-fs">
-                  <a href="https://www.bonusspende.de/bonus-melder"><!-- = image_tag 'home/boostbar_screenshot.jpg' -->
-                  </a></div>
-                  <div class="text-center">
-                    <a class="btn btn-primary" href="https://www.bonusspende.de/bonus-melder">BONUS-Melder kennenlernen
-                    </a></div>
-                  </div>
-
-                </section>
-                <section class="last">
-                  <div class="container">
-                    <header class="text-center">
-                      <h2>
-                        Warum eigentlich?
-                      </h2>
-                    </header>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <p>
-                        </p><p>3 Millionen Kinder in Deutschland sind von Armut betroffen. Die unabhängige Spendenbewegung DEUTSCHLAND RUNDET AUF ermöglicht es jedem, durch das Spenden von Kleinstbeträgen, Kinderarmut in Deutschland wirksam und nachhaltig zu bekämpfen.</p>Mit Deiner BONUS-Spende hilfst du direkt den Förderprojekten von DEUTSCHLAND RUNDET AUF. Dies kostet dich nur einen Klick und keinen Cent. Weitergehende Informationen zu unseren aktuellen Förderprojekten findest du
-                        <a href="https://deutschland-rundet-auf.de/so-hilft-ihre-spende/">hier.</a>
-                        <p></p>
-                        <a class="btn btn-primary" href="https://www.bonusspende.de/users/sign_up">Mitmachen</a>
-                      </div>
-                      <div class="col-sm-6">
-                        <img src="https://www.bonusspende.de/assets/dra/aboutus-a1f237198151a076ea92bb6dce315af0.jpg" alt="Aboutus">
-                      </div>
-                    </div>
-                  </div>
-
-                </section>
-              </div>
-
-            </article>
-
-            <!-- Site Footer -->
-            <div>
-              <div id="footer">
-                <div class="container">
-                  <div class="row">
-                    <div class="line"></div>
-                    <div class="col-sm-4">
-                      <h3>
-                        INHALT
-                      </h3>
-                      <nav>
-                        <ul class="list-unstyled">
-                          <li>
-                            <a href="https://www.bonusspende.de">HOME</a>
-                          </li>
-                          <li>
-                            <a href="https://www.bonusspende.de/howto">WIE FUNKTIONIERT’S?</a>
-                          </li>
-                          <li>
-                            <a href="https://www.bonusspende.de/bonus-melder">BONUS-MELDER</a>
-                          </li>
-                          <li>
-                            <a href="https://www.bonusspende.de/weitersagen">WEITERSAGEN</a>
-                          </li>
-                          <li>
-                            <a href="/https://www.bonusspende.defaq">FAQ</a>
-                          </li>
-                        </ul>
-                      </nav>
-                    </div>
-                    <div class="col-sm-4">
-                      <h3>
-                        DEUTSCHLAND RUNDET AUF
-                      </h3>
-                      <nav>
-                        <ul class="list-unstyled">
-                          <li>
-                            <a target="_blank" href="https://deutschland-rundet-auf.de/ueber-uns/">ÜBER UNS</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="https://www.deutschland-rundet-auf.de">FÖRDERPROJEKTE</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="https://deutschland-rundet-auf.de/kinderarmut/">KINDERARMUT</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="https://deutschland-rundet-auf.de/category/neuigkeiten/">AKTUELLES</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="https://deutschland-rundet-auf.de/presse/">PRESSE</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="https://deutschland-rundet-auf.de/ueber-uns/transparenz/">VERANTWORTUNG</a>
-                          </li>
-                          <li>
-                            <a href="https://www.bonusspende.de/agb">AGB</a>
-                          </li>
-                          <li>
-                            <a href="https://www.bonusspende.de/imprint">IMPRESSUM</a>
-                          </li>
-                        </ul>
-                      </nav>
-                    </div>
-                    <div class="col-sm-4" id="kontakt">
-                      <h3>
-                        KONTAKT
-                      </h3>
-                      <p>
-                        DEUTSCHLAND RUNDET AUF Partner GmbH
-                      </p>
-                      <p>
-                        Grimmstr. 12c
-                      </p>
-                      <p>
-                        10967 Berlin
-                      </p>
-                      <p>
-                        E-Mail:
-                        <a encode="javascript" href="mailto:bonus@deutschland-rundet-auf.de">bonus@deutschland-rundet-auf.de</a>
-                      </p>
-                      <p>
-                        Telefon: (030) 789 500 39 0
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="subsec text-center">
-                    <h5>
-                      Hosted by
-                      <a class="sys11 img-sp" href="https://www.syseleven.de/">Sys11
-                      </a></h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--                  -->
-              <!--     The END      -->
-              <!--                  -->
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-              <script src="assets/js/bootstrap.min.js"></script>
-            </body>
-            </html>
+    <!--                  -->
+    <!--     The END      -->
+    <!--                  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+  </html>
