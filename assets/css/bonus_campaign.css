@@ -42,3 +42,8 @@ body {
   font-family: "Tenso", Arial, sans-serif;
   font-size: 1em;
 }
+
+.navbar-default {
+  background-color: transparent !important;
+  border: none !important;
+}
