@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Tenso';
+  src: url('../fonts/tenso/01_tenso_light-webfont.eot');
+  src: url('../fonts/tenso/01_tenso_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tenso/01_tenso_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tenso';
+  src: url('../fonts/tenso/03_tenso_regular-webfont.eot');
+  src: url('../fonts/tenso/03_tenso_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tenso/03_tenso_regular-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tenso';
+  src: url('../fonts/tenso/05_tenso_medium-webfont.eot');
+  src: url('../fonts/tenso/05_tenso_medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tenso/05_tenso_medium-webfont.woff') format('woff'),
+    url('../fonts/tenso/05_tenso_medium-webfont.ttf') format('truetype'),
+    url('../fonts/tenso/05_tenso_medium-webfont.svg#LatoHairline') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tenso';
+  src: url('../fonts/tenso/07_tenso_bold-webfont.eot');
+  src: url('../fonts/tenso/07_tenso_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tenso/07_tenso_bold-webfont.woff') format('woff'),
+    url('../fonts/tenso/07_tenso_bold-webfont.ttf') format('truetype'),
+    url('../fonts/tenso/07_tenso_bold-webfont.svg#LatoHairline') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Tenso", Arial, sans-serif;
+  font-size: 1em;
+}
+
+.navbar-default {
+  background-color: transparent !important;
+  border: none !important;
+}
